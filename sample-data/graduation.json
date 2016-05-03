@@ -1,0 +1,80 @@
+{
+    "graduation": {
+        "name": "Dialetheia",
+        "year": 2016,
+        "text": "<p>The view that a statement can be true and not true at the same time is dialetheism. Such statements are called true contradictions, or dialetheia.</p><p>The 2014 Graduates of Sandberg Instituut's Design Department confront the dilemmas of our disoriented times. Witnessing and accelerating the deterioration of formal rules and systems, they have a tendency to point out contradictions. They are willing and wanting to embrace incongruity as reality, and as a condition for new possibilities.</p><p>Forward-thinking, risk-taking critical optimists, the graduates reflect on the present with a sense of clarity and an alternative perspective. They narrate, enact and embody the polemic tendencies of society today. They challenge alleged truths and dominant systems, those so engrained as to become invisible. Dialetheism is emerging as a mode of thinking and of being.</p>",
+        "documentation": [
+            "imgs/1.jpg",
+            "imgs/2.jpg",
+            "imgs/3.jpg"
+        ],
+        "extras": [
+            ["Exhibition link", "<a href='http://www.sandberg.nl/design/dialetheia/'>http://www.sandberg.nl/design/dialetheia/</a>"],
+            ["Curator", "Agata Jaworska"],
+            ["Curatorial team", "Lien Van Leemput, Ruben Baart, Roos Groothuizen"]
+        ]
+    },
+    "students": {
+        "caption": "Students who graduated on 2016",
+        "entries": [
+            {
+                "name": "Agnieszka Joanna Zimolag",
+                "avatar": "imgs/avatar1.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "PL",
+                "projects": [
+                    "Desensitized",
+                    "Digital detox bath",
+                    "Surface tension"
+                ],
+                "tags": [ "digital imaging", "film", "narrative", "typography" ],
+                "images": [
+                    "imgs/1.jpg",
+                    "imgs/2.jpg",
+                    "imgs/3.jpg"
+                ]
+            },
+            {
+                "name": "Florian Mecklenburg",
+                "avatar": "imgs/avatar2.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "DE",
+                "projects": [
+                        "Hyper Kiss"
+                ],
+                "tags": [ "sound", "film", "installation" ],
+                "images": [
+                    "imgs/1.jpg",
+                    "imgs/2.jpg",
+                    "imgs/3.jpg"
+                ]
+            },
+            {
+                "name": "Juliette Lizotte",
+                "avatar": "imgs/avatar3.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "FR",
+                "projects": [
+                    "The Shelter",
+                    "A statement on capitalism",
+                    "Monte perdido designs"
+                ],
+                "tags": [ "book design", "graphic design", "textile", "video" ],
+                "images": [
+                    "imgs/1.jpg",
+                    "imgs/2.jpg",
+                    "imgs/3.jpg"
+                ]
+            }
+        ]
+    },
+
+    "footer_links": [
+        ["./", "Back to student listing"]
+    ],
+
+    "yearbook": true
+}

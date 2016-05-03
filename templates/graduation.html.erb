@@ -1,0 +1,54 @@
+<% if @graduation %>
+<table class="graduation">
+    <caption class="graduation__title">
+        <h2><%= @graduation[:name] %> (<%= @graduation[:year] %>)</h2>
+    </caption>
+
+    <colgroup>
+        <col class="graduation__text">
+        <col class="graduation__documentation">
+        <col class="graduation__image">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th>Exhibition text</th>
+            <th>Documentation</th>
+            <th>Detail</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>
+                <%= @graduation[:text] %>
+            </td>
+
+            <td>
+                <ul class="documentation__list">
+                <% @graduation[:documentation].each do |image| %>
+                    <li class="documentation__item">
+                        <img src="<%= image %>" alt="">
+                    </li>
+                <% end %>
+                </ul>
+            </td>
+
+            <td>
+                <img src="<%= @graduation[:documentation][0] %>" alt="">
+            </td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <% @graduation[:extras].each do |extra| %>
+        <tr>
+            <td><%= extra[0] %></td>
+            <td colspan="2">
+                <%= extra[1] %>
+            </td>
+        </tr>
+        <% end %>
+    </tfoot>
+</table>
+<% end %>

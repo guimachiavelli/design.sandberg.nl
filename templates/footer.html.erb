@@ -1,0 +1,13 @@
+        </main>
+        <footer class="site-footer">
+            <% if @footer_links %>
+                <% @footer_links.each do |link| %>
+                    <a class="footer-link" href="<%= link[0] %>">
+                        <%= link[1] %>
+                    </a>
+                <% end %>
+            <% end %>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

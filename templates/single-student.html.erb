@@ -1,0 +1,54 @@
+<% if @student %>
+<table class="single-student">
+    <caption class="single-student__title">
+        <h2><%= @student[:name] %></h2>
+    </caption>
+
+    <colgroup>
+        <col class="single-student__avatar">
+        <col class="single-student__key">
+        <col class="single-student__value">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th class="hacky-th" colspan="3"></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td rowspan="6" class="single-student__avatar">
+                <img src="<%= @student[:avatar] %>" alt="">
+            </td>
+        <tr>
+            <td>Date of birth</td>
+            <td><%= @student[:birthdate] %></td>
+        </tr>
+        <tr>
+            <td>Graduation year</td>
+            <td>
+                <a href="graduation.html">
+                    <%= @student[:graduation] %> (<%= @student[:year] %>)
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td><%= @student[:country] %></td>
+        </tr>
+        <tr>
+            <td>Biography</td>
+            <td><%= @student[:bio]  %></td>
+        </tr>
+        <tr>
+            <td>Websites</td>
+            <td>
+                <% @student[:websites].each do |site| %>
+                    <a href="<%= site %>"><%= site %></a>
+                <% end %>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<% end %>

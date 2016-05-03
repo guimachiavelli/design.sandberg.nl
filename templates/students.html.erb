@@ -1,0 +1,57 @@
+<% if @students %>
+<table class="students">
+    <% if @students[:caption] %>
+    <caption class="students__title">
+        <h3><%= @students[:caption] %></h3>
+    </caption>
+    <% end %>
+
+    <thead>
+        <tr class="students__header">
+            <th></th>
+            <th data-key="name">Student</th>
+            <th data-key="year">Year</th>
+            <th data-key="country">☆</th>
+            <th data-key="work">Works</th>
+            <th data-key="tags">Tags</th>
+            <th data-key="media">Media</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @students[:entries].each do |student| %>
+            <tr class="student" 
+                data-name="<%= student[:name] %>" 
+                data-country="<%= student[:country] %>"
+                data-work="<%= student[:projects].length %>"
+                data-tags="<%= student[:tags].length %>"
+                data-media="<%= student[:images].length %>"
+                data-year="<%= student[:year] %>">
+                <td><img src="<%= student[:avatar] %>" alt=""></td>
+                <td><a href="student.html"><%= student[:name] %></a></td>
+                <td>
+                    <a href="graduation.html">
+                        <%= student[:graduation] %> (<%= student[:year] %>)
+                    </a>
+                </td>
+                <td><%= student[:country] %></td>
+                <td>
+                    <% student[:projects].each.with_index do |project, i| %>
+                        <a href="project.html"><%= project %></a><%= i < (student[:projects].length - 1) ? ',' : '' %>
+                    <% end %>
+                </td>
+                <td>
+                    <% student[:tags].each.with_index do |tag, i| %>
+                        <%= tag %><%= i < (student[:tags].length - 1) ? ',' : '' %>
+                    <% end %>
+                </td>
+                <td>
+                    <% student[:images].each do |image| %>
+                        <img src="<%= image %>" alt="">
+                    <% end %>
+                </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+<% end %>

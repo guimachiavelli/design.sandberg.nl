@@ -1,0 +1,41 @@
+<% if @project %>
+<table class="single-project">
+    <caption class="single-project__title">
+        <h2><%= @project[:title] %> (<%= @project[:year] %>)</h2>
+    </caption>
+
+    <colgroup>
+        <col class="single-project__description">
+        <col class="single-project__media">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Media</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><%= @project[:text] %></td>
+            <td>
+                <% @project[:media].each do |image| %>
+                    <img src="<%= image %>" alt="">
+                <% end %>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <% @project[:extras].each do |extra| %>
+        <tr>
+            <td><%= extra[0] %></td>
+            <td colspan="2">
+                <%= extra[1] %>
+            </td>
+        </tr>
+        <% end %>
+    </tfoot>
+</table>
+
+<% end %>

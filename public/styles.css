@@ -1,0 +1,232 @@
+body {
+    letter-spacing: 0.25px;
+    margin: 1em;
+}
+
+.site-nav {
+    margin-bottom: 1em;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited:hover {
+    color: indigo;
+}
+
+.site-footer {
+    margin: 4em 0;
+}
+
+.footer-link {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.footnote-link {
+    text-decoration: underline;
+    font-size: x-small;
+    vertical-align: super;
+}
+
+.footnote-link:before {
+    content: '[';
+}
+
+.footnote-link:after {
+    content: ']';
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+    padding: 0.25em 0.5em;
+}
+
+table th {
+    background: whitesmoke;
+    /*font-weight: normal;*/
+}
+
+
+table th:after {
+    font-size: small;
+    line-height: 0;
+}
+
+table th[aria-selected=true] {
+    background: yellow;
+}
+
+table th[aria-sort=ascending]:after {
+    content: '☝';
+}
+
+table th[aria-sort=descending]:after {
+    content: '☟';
+}
+
+/* students */
+.students {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.students th {
+    cursor: pointer;
+}
+
+.student:hover td {
+    background: yellow;
+}
+
+.student td img {
+    width: 40px;
+    max-height: 80px;
+    line-height: 0;
+}
+
+
+/* Graduation */
+
+.yearbook__link {
+    position: fixed;
+    top: 36px;
+    right: 1em;
+}
+
+.graduation__title {
+    border: 1px solid black;
+    border-bottom: 0;
+    background: whitesmoke;
+}
+
+.graduation td:last-child img {
+    width: 100%;
+}
+
+.graduation__image {
+    width: 50%;
+}
+
+.graduation__documentation {
+    width: 30%;
+    vertical-align: top;
+}
+
+
+.documentation__list {
+    list-style: none;
+    padding: 0;
+}
+
+.documentation__item {
+    display: inline-block;
+}
+
+.documentation__item img {
+    width: 100px;
+}
+
+.graduation tfoot td:first-child {
+    background: whitesmoke;
+    font-weight: bold;
+}
+
+.graduation + .students {
+    margin-top: 5em;
+}
+
+.graduation + .students caption {
+    text-align: left;
+}
+
+/* student profile */
+
+.single-student__title {
+    text-align: left;
+    border: 1px solid black;
+    border-bottom: 0;
+    background: whitesmoke;
+    padding: 0 0.5em;
+}
+
+.hacky-th {
+    padding: 0;
+    border-top: 0;
+}
+
+.single-student__avatar {
+    width: 20%;
+}
+
+.single-student__avatar img {
+    width: 100%;
+}
+
+.single-student__key {
+    background: whitesmoke;
+}
+
+/* work listing */
+
+.single-project + .projects,
+.single-student + .projects {
+    margin-top: 4em;
+}
+
+.projects__title {
+    text-align: left;
+}
+
+.projects td,
+.projects th {
+    text-align: left;
+}
+
+.project__title {
+    width: 15%;
+}
+
+.project__media {
+    width: 50%;
+}
+
+.projects img {
+    display: inline-block;
+    width: 150px;
+    max-height: 300px;
+}
+
+.project:hover td {
+    background: yellow;
+}
+
+/* single project */
+
+.single-project__title {
+    border: 1px solid black;
+    border-bottom: 0;
+    background: whitesmoke;
+    padding: 0 0.5em;
+}
+
+.single-project td {
+    vertical-align: top;
+}
+.single-project tfoot td:first-child {
+    background: whitesmoke;
+    font-weight: bold;
+}

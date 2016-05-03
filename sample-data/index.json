@@ -1,0 +1,73 @@
+{
+    "students": {
+        "entries": [
+            {
+                "name": "Florian Mecklenburg",
+                "avatar": "imgs/avatar2.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "DE",
+                "projects": [
+                        "Hyper Kiss"
+                ],
+                "tags": [ "sound", "film", "installation" ],
+                "images": [
+                    "imgs/1.jpg",
+                    "imgs/2.jpg",
+                    "imgs/3.jpg"
+                ]
+            },
+            {
+                "name": "Agnieszka Joanna Zimolag",
+                "avatar": "imgs/avatar1.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "PL",
+                "projects": [
+                    "Desensitized",
+                    "Digital detox bath",
+                    "Surface tension"
+                ],
+                "tags": [ "digital imaging", "film", "narrative", "typography" ],
+                "images": [
+                    "imgs/work1.png"
+                ]
+            },
+            {
+                "name": "Juliette Lizotte",
+                "avatar": "imgs/avatar3.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "FR",
+                "projects": [
+                    "The Shelter",
+                    "A statement on capitalism",
+                    "Monte perdido designs"
+                ],
+                "tags": [ "book design", "graphic design", "textile", "video" ],
+                "images": [
+                    "imgs/9.gif",
+                    "imgs/8.jpg",
+                    "imgs/6.jpg"
+                ]
+            },
+            {
+                "name": "Student Name",
+                "avatar": "imgs/avatar4.png",
+                "graduation": "Exhibition show",
+                "year": 2014,
+                "country": "NL",
+                "projects": [
+                    "Project name",
+                    "Another project name"
+                ],
+                "tags": [ "performance", "textile", "video" ],
+                "images": [
+                    "imgs/12.png",
+                    "imgs/13.jpg"
+                ]
+            }
+
+        ]
+    }
+}
