@@ -68,18 +68,29 @@
         },
 
         onMediaClick: function(e) {
-            var target, destination;
+            var target, destination, current;
 
             target = e.target;
+            current = document.querySelector('.graduation [aria-selected=true]');
 
-            if (target.nodeName.toLowerCase() !== 'img' ) {
+            if (target.nodeName.toLowerCase() !== 'img') {
+                return;
+            }
+
+            if (current === target) {
                 return;
             }
 
             destination = document.querySelector('.graduation td:last-child');
 
-            console.log(destination);
+            destination.innerHTML = '';
+            destination.appendChild(target.cloneNode());
 
+            if (current !== null) {
+                current.setAttribute('aria-selected', false);
+            }
+
+            target.setAttribute('aria-selected', true);
         }
     };
 
