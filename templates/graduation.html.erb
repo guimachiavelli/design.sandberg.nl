@@ -1,7 +1,32 @@
 <% if @graduation %>
+<table class="year">
+    <caption class="graduation__title">
+        <h2><%= @graduation[:year] %></h2>
+    </caption>
+
+    <tbody>
+        <tr>
+            <td>Course director</td>
+            <td>Annelys de Vet</td>
+        </tr>
+        <tr>
+            <td>Coordinator</td>
+            <td>Anniek Vrij</td>
+        </tr>
+        <tr>
+            <td>Tutors</td>
+            <td>Rob Schröder, Daniel van der Velden, Dimitri Nieuwenhuizen, Nikki Brörmann (essays),</td>
+        </tr>
+        <tr>
+            <td>Guest tutors</td>
+            <td>Max Bruinsma, Syb Groeneveld, Femke Herregraven, Chris Keulemans, Rudy J. Luijters, Francisco Laranjo, Pinar&amp;Viola, Ruben Pater, Malkit Shoshan, Diego Tonus, Astrid Vorstermans</td>
+        </tr>
+    </tbody>
+</table>
+
 <table class="graduation">
     <caption class="graduation__title">
-        <h2><%= @graduation[:name] %> (<%= @graduation[:year] %>)</h2>
+        <h2>Graduation Show: <%= @graduation[:name] %></h2>
     </caption>
 
     <colgroup>

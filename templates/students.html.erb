@@ -11,7 +11,7 @@
             <th></th>
             <th data-key="name">Student</th>
             <th data-key="year">Year</th>
-            <th data-key="country">☆</th>
+            <th data-key="country">⚑</th>
             <th data-key="work">Works</th>
             <th data-key="tags">Tags</th>
             <th data-key="media">Media</th>
@@ -20,7 +20,7 @@
 
     <tbody>
         <% @students[:entries].each do |student| %>
-            <tr class="student" 
+            <tr class="student"
                 data-name="<%= student[:name] %>" 
                 data-country="<%= student[:country] %>"
                 data-work="<%= student[:projects].length %>"
@@ -31,7 +31,7 @@
                 <td><a href="student.html"><%= student[:name] %></a></td>
                 <td>
                     <a href="graduation.html">
-                        <%= student[:graduation] %> (<%= student[:year] %>)
+                        <%= student[:year] %>
                     </a>
                 </td>
                 <td><%= student[:country] %></td>

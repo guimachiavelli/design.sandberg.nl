@@ -12,9 +12,17 @@
                 ],
                 "tags": [ "sound", "film", "installation" ],
                 "images": [
-                    "imgs/1.jpg",
-                    "imgs/2.jpg",
-                    "imgs/3.jpg"
+                    "imgs/work1.png",
+                    "imgs/work2.png",
+                    "imgs/work3.png",
+                    "imgs/work4.png",
+                    "imgs/work5.png",
+                    "imgs/work6.png",
+                    "imgs/12.png",
+                    "imgs/10.png",
+                    "imgs/work7.png",
+                    "imgs/work8.png",
+                    "imgs/work9.jpg"
                 ]
             },
             {
@@ -30,7 +38,13 @@
                 ],
                 "tags": [ "digital imaging", "film", "narrative", "typography" ],
                 "images": [
-                    "imgs/work1.png"
+                    "imgs/work10.jpg",
+                    "imgs/work11.jpg",
+                    "imgs/work12.jpg",
+                    "imgs/work13.png",
+                    "imgs/work14.png",
+                    "imgs/work15.png",
+                    "imgs/work16.jpg"
                 ]
             },
             {
@@ -47,13 +61,19 @@
                 "tags": [ "book design", "graphic design", "textile", "video" ],
                 "images": [
                     "imgs/9.gif",
-                    "imgs/8.jpg",
-                    "imgs/6.jpg"
+                    "imgs/6.jpg",
+                    "imgs/work17.png",
+                    "imgs/work18.jpg",
+                    "imgs/work19.jpg",
+                    "imgs/work20.jpg",
+                    "imgs/work22.jpg",
+                    "imgs/work21.jpg",
+                    "imgs/work23.jpg"
                 ]
             },
             {
                 "name": "Student Name",
-                "avatar": "imgs/avatar4.png",
+                "avatar": "imgs/4.jpg",
                 "graduation": "Exhibition show",
                 "year": 2014,
                 "country": "NL",
@@ -63,11 +83,101 @@
                 ],
                 "tags": [ "performance", "textile", "video" ],
                 "images": [
+                    "imgs/work24.png",
+                    "imgs/work28.png",
+                    "imgs/work25.jpg",
+                    "imgs/work26.jpg",
+                    "imgs/work27.jpg"
+                ]
+            },
+            {
+                "name": "BiYi Zhu",
+                "avatar": "imgs/8.jpg",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "CN",
+                "projects": [
+                        "Hyper Kiss"
+                ],
+                "tags": [ "sound", "film", "installation" ],
+                "images": [
+                    "imgs/work1.png",
+                    "imgs/work2.png",
+                    "imgs/work3.png",
+                    "imgs/work4.png",
+                    "imgs/work5.png",
+                    "imgs/work6.png",
                     "imgs/12.png",
-                    "imgs/13.jpg"
+                    "imgs/10.png",
+                    "imgs/work7.png",
+                    "imgs/work8.png",
+                    "imgs/work9.jpg"
+                ]
+            },
+            {
+                "name": "Floris van Driel",
+                "avatar": "imgs/work30.jpg",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "PL",
+                "projects": [
+                    "Desensitized",
+                    "Digital detox bath",
+                    "Surface tension"
+                ],
+                "tags": [ "digital imaging", "film", "narrative", "typography" ],
+                "images": [
+                    "imgs/work10.jpg",
+                    "imgs/work11.jpg",
+                    "imgs/work12.jpg",
+                    "imgs/work13.png",
+                    "imgs/work14.png",
+                    "imgs/work15.png",
+                    "imgs/work16.jpg"
+                ]
+            },
+            {
+                "name": "Arthur Röing Baer",
+                "avatar": "imgs/work24.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "FR",
+                "projects": [
+                    "The Shelter",
+                    "Monte perdido designs"
+                ],
+                "tags": [ "book design", "graphic design", "textile", "video" ],
+                "images": [
+                    "imgs/6.jpg",
+                    "imgs/work17.png",
+                    "imgs/work18.jpg",
+                    "imgs/work19.jpg",
+                    "imgs/work20.jpg",
+                    "imgs/work24.png",
+                    "imgs/work21.jpg",
+                    "imgs/work23.jpg"
+                ]
+            },
+            {
+                "name": "Benedikt Weishaupt",
+                "avatar": "imgs/5.gif",
+                "graduation": "Exhibition show",
+                "year": 2014,
+                "country": "NL",
+                "projects": [
+                    "Project name",
+                    "Another project name"
+                ],
+                "tags": [ "performance", "book design", "video" ],
+                "images": [
+                    "imgs/work24.png",
+                    "imgs/work28.png",
+                    "imgs/work20.jpg",
+                    "imgs/work22.jpg",
+                    "imgs/work26.jpg",
+                    "imgs/work25.jpg"
                 ]
             }
-
         ]
     }
 }
