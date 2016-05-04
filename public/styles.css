@@ -138,6 +138,7 @@ table th[aria-sort=descending]:after {
 
 .documentation__item img {
     width: 100px;
+    cursor: pointer;
 }
 
 .graduation tfoot td:first-child {
@@ -151,6 +152,10 @@ table th[aria-sort=descending]:after {
 
 .graduation + .students caption {
     text-align: left;
+}
+
+.graduation [aria-selected=true] {
+    border: 3px solid yellow;
 }
 
 /* student profile */
