@@ -4,20 +4,21 @@
     var site = {
         init: function() {
             var students = document.querySelector('.students');
-
-            if (!students) {
-                return;
-            }
-
             students.addEventListener('click',
                                       this.onTableClick.bind(this, students));
+
+            var graduationMedia = document.querySelector('.graduation td:nth-child(2)');
+            graduationMedia.addEventListener('click', this.onMediaClick.bind(this));
         },
 
         onTableClick: function(tableEl, e) {
             var target;
 
-            target = e.target;
+            if (!tableEl) {
+                return;
+            }
 
+            target = e.target;
 
             if (target.nodeName.toLowerCase() !== 'th') {
                 return;
@@ -64,6 +65,21 @@
             for (var i = 0, len = sorted.length; i < len; i += 1) {
                 el.appendChild(sorted[i]);
             }
+        },
+
+        onMediaClick: function(e) {
+            var target, destination;
+
+            target = e.target;
+
+            if (target.nodeName.toLowerCase() !== 'img' ) {
+                return;
+            }
+
+            destination = document.querySelector('.graduation td:last-child');
+
+            console.log(destination);
+
         }
     };
 

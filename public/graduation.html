@@ -107,18 +107,24 @@
     <thead>
         <tr class="students__header">
             <th></th>
-            <th>Student</th>
-            <th>Year</th>
-            <th>☆</th>
-            <th>Works</th>
-            <th>Tags</th>
-            <th>Media</th>
+            <th data-key="name">Student</th>
+            <th data-key="year">Year</th>
+            <th data-key="country">☆</th>
+            <th data-key="work">Works</th>
+            <th data-key="tags">Tags</th>
+            <th data-key="media">Media</th>
         </tr>
     </thead>
 
     <tbody>
         
-            <tr class="student">
+            <tr class="student" 
+                data-name="Agnieszka Joanna Zimolag" 
+                data-country="PL"
+                data-work="3"
+                data-tags="4"
+                data-media="3"
+                data-year="2016">
                 <td><img src="imgs/avatar1.png" alt=""></td>
                 <td><a href="student.html">Agnieszka Joanna Zimolag</a></td>
                 <td>
@@ -133,7 +139,7 @@
                     
                         <a href="project.html">Digital detox bath</a>,
                     
-                        <a href="project.html">Surface tension</a>,
+                        <a href="project.html">Surface tension</a>
                     
                 </td>
                 <td>
@@ -144,7 +150,7 @@
                     
                         narrative,
                     
-                        typography,
+                        typography
                     
                 </td>
                 <td>
@@ -158,7 +164,13 @@
                 </td>
             </tr>
         
-            <tr class="student">
+            <tr class="student" 
+                data-name="Florian Mecklenburg" 
+                data-country="DE"
+                data-work="1"
+                data-tags="3"
+                data-media="3"
+                data-year="2016">
                 <td><img src="imgs/avatar2.png" alt=""></td>
                 <td><a href="student.html">Florian Mecklenburg</a></td>
                 <td>
@@ -169,7 +181,7 @@
                 <td>DE</td>
                 <td>
                     
-                        <a href="project.html">Hyper Kiss</a>,
+                        <a href="project.html">Hyper Kiss</a>
                     
                 </td>
                 <td>
@@ -178,7 +190,7 @@
                     
                         film,
                     
-                        installation,
+                        installation
                     
                 </td>
                 <td>
@@ -192,7 +204,13 @@
                 </td>
             </tr>
         
-            <tr class="student">
+            <tr class="student" 
+                data-name="Juliette Lizotte" 
+                data-country="FR"
+                data-work="3"
+                data-tags="4"
+                data-media="3"
+                data-year="2016">
                 <td><img src="imgs/avatar3.png" alt=""></td>
                 <td><a href="student.html">Juliette Lizotte</a></td>
                 <td>
@@ -207,7 +225,7 @@
                     
                         <a href="project.html">A statement on capitalism</a>,
                     
-                        <a href="project.html">Monte perdido designs</a>,
+                        <a href="project.html">Monte perdido designs</a>
                     
                 </td>
                 <td>
@@ -218,7 +236,7 @@
                     
                         textile,
                     
-                        video,
+                        video
                     
                 </td>
                 <td>
@@ -241,12 +259,13 @@
         </main>
         <footer class="site-footer">
             
-            
-                <a class="footer-link" href="./">
-                    Back to student listing
-                </a>
-            
+                
+                    <a class="footer-link" href="./">
+                        Back to student listing
+                    </a>
+                
             
         </footer>
+        <script src="main.js"></script>
     </body>
 </html>
