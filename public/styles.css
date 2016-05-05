@@ -118,6 +118,7 @@ table th[aria-sort=descending]:after {
 }
 
 .year tbody td:first-child {
+    width: 20%;
     background: whitesmoke;
     font-weight: bold;
 }
@@ -206,6 +207,10 @@ table th[aria-sort=descending]:after {
 
 .single-student__key {
     background: whitesmoke;
+}
+
+.single-student td:first-child {
+    font-weight: bold;
 }
 
 /* work listing */
