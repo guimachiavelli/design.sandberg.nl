@@ -1,0 +1,10 @@
+<% if @texts %>
+    <ul class="texts">
+        <% @texts.each.with_index do |text, i| %>
+            <li class="text">
+                <a href="http://<%= text[:link] %>"><%= text[:title] %></a>
+            </li>
+        <% end %>
+    </ul>
+<% end %>
+

@@ -25,7 +25,7 @@
         <% @projects[:entries].each do |project| %>
         <tr class="project">
             <td><a href="project.html"><%= project[:title] %></a></td>
-            <td><%= project[:year] %></td>
+            <td><a href="year.html"><%= project[:year] %></a></td>
             <td><%= project[:excerpt] %></td>
             <td>
                 <% project[:media].each do |medium| %>

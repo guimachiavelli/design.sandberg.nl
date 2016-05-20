@@ -1,0 +1,7 @@
+<% if @years %>
+<ol class="years">
+    <% @years.each do |year| %>
+        <li class="years__item"><a href="year.html"><%= year %></a></li>
+    <% end %>
+</ol>
+<% end %>

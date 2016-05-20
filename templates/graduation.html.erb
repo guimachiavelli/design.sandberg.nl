@@ -1,5 +1,20 @@
 <% if @graduation %>
-<table class="year">
+
+<nav class="secondary-nav">
+    <ul class="secondary-nav__items">
+        <li class="secondary-nav__item">
+            <a href="#">Year fact sheet</a>
+        </li>
+        <li class="secondary-nav__item">
+            <a href="#graduation">Graduation Show</a>
+        </li>
+        <li class="secondary-nav__item">
+            <a href="#students">Students</a>
+        </li>
+    </ul>
+</nav>
+
+<table id="year" class="year">
     <caption class="graduation__title">
         <h2><%= @graduation[:year] %></h2>
     </caption>
@@ -21,10 +36,14 @@
             <td>Guest tutors</td>
             <td>Max Bruinsma, Syb Groeneveld, Femke Herregraven, Chris Keulemans, Rudy J. Luijters, Francisco Laranjo, Pinar&amp;Viola, Ruben Pater, Malkit Shoshan, Diego Tonus, Astrid Vorstermans</td>
         </tr>
+        <tr>
+            <td>Yearbook</td>
+            <td><a href="#">Download the pdf</a></td>
+        </tr>
     </tbody>
 </table>
 
-<table class="graduation">
+<table class="graduation" id="graduation">
     <caption class="graduation__title">
         <h2>Graduation Show: <%= @graduation[:name] %></h2>
     </caption>

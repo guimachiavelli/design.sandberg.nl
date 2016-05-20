@@ -1,0 +1,11 @@
+<% if @images %>
+    <ul class="image-listing">
+        <% @images.each do |image| %>
+            <li class="image-listing__item">
+                <a href="projects.html">
+                    <img class="image-listing__image" src="imgs/<%= image %>" alt="">
+                </a>
+            </li>
+        <% end %>
+    </ul>
+<% end %>

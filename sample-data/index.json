@@ -14,11 +14,6 @@
                 "images": [
                     "imgs/work1.png",
                     "imgs/work2.png",
-                    "imgs/work3.png",
-                    "imgs/work4.png",
-                    "imgs/work5.png",
-                    "imgs/work6.png",
-                    "imgs/12.png",
                     "imgs/10.png",
                     "imgs/work7.png",
                     "imgs/work8.png",
@@ -39,9 +34,6 @@
                 "tags": [ "digital imaging", "film", "narrative", "typography" ],
                 "images": [
                     "imgs/work10.jpg",
-                    "imgs/work11.jpg",
-                    "imgs/work12.jpg",
-                    "imgs/work13.png",
                     "imgs/work14.png",
                     "imgs/work15.png",
                     "imgs/work16.jpg"
@@ -64,11 +56,7 @@
                     "imgs/6.jpg",
                     "imgs/work17.png",
                     "imgs/work18.jpg",
-                    "imgs/work19.jpg",
-                    "imgs/work20.jpg",
-                    "imgs/work22.jpg",
-                    "imgs/work21.jpg",
-                    "imgs/work23.jpg"
+                    "imgs/work22.jpg"
                 ]
             },
             {
@@ -83,10 +71,8 @@
                 ],
                 "tags": [ "performance", "textile", "video" ],
                 "images": [
-                    "imgs/work24.png",
-                    "imgs/work28.png",
                     "imgs/work25.jpg",
-                    "imgs/work26.jpg",
+                    "imgs/work28.png",
                     "imgs/work27.jpg"
                 ]
             },
@@ -101,16 +87,9 @@
                 ],
                 "tags": [ "sound", "film", "installation" ],
                 "images": [
-                    "imgs/work1.png",
-                    "imgs/work2.png",
-                    "imgs/work3.png",
-                    "imgs/work4.png",
-                    "imgs/work5.png",
                     "imgs/work6.png",
                     "imgs/12.png",
-                    "imgs/10.png",
                     "imgs/work7.png",
-                    "imgs/work8.png",
                     "imgs/work9.jpg"
                 ]
             },
@@ -130,10 +109,7 @@
                     "imgs/work10.jpg",
                     "imgs/work11.jpg",
                     "imgs/work12.jpg",
-                    "imgs/work13.png",
-                    "imgs/work14.png",
-                    "imgs/work15.png",
-                    "imgs/work16.jpg"
+                    "imgs/work13.png"
                 ]
             },
             {
@@ -150,12 +126,8 @@
                 "images": [
                     "imgs/6.jpg",
                     "imgs/work17.png",
-                    "imgs/work18.jpg",
-                    "imgs/work19.jpg",
                     "imgs/work20.jpg",
-                    "imgs/work24.png",
-                    "imgs/work21.jpg",
-                    "imgs/work23.jpg"
+                    "imgs/work21.jpg"
                 ]
             },
             {
@@ -170,10 +142,7 @@
                 ],
                 "tags": [ "performance", "book design", "video" ],
                 "images": [
-                    "imgs/work24.png",
                     "imgs/work28.png",
-                    "imgs/work20.jpg",
-                    "imgs/work22.jpg",
                     "imgs/work26.jpg",
                     "imgs/work25.jpg"
                 ]

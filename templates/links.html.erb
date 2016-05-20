@@ -1,0 +1,9 @@
+<% if @links %>
+    <ul class="link-items">
+        <% @links.each.with_index do |link, i| %>
+            <li class="link-item">
+                <a href="http://<%= link %>"><%= link %></a>
+            </li>
+        <% end %>
+    </ul>
+<% end %>

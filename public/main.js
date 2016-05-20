@@ -3,16 +3,20 @@
 
     var site = {
         init: function() {
-            var students = document.querySelector('.students');
+            var students, graduationMedia;
+
+            students = document.querySelector('.students');
             students.addEventListener('click',
                                       this.onTableClick.bind(this, students));
 
-            var graduationMedia = document.querySelector('.graduation td:nth-child(2)');
-            graduationMedia.addEventListener('click', this.onMediaClick.bind(this));
+            graduationMedia = document
+                                  .querySelector('.graduation td:nth-child(2)');
+            graduationMedia.addEventListener('click',
+                                             this.onMediaClick.bind(this));
         },
 
         onTableClick: function(tableEl, e) {
-            var target;
+            var target, activeSort, order;
 
             if (!tableEl) {
                 return;
@@ -24,18 +28,15 @@
                 return;
             }
 
-            var activeSort = tableEl.querySelector('[aria-selected=true]');
+            activeSort = tableEl.querySelector('[aria-selected=true]');
+
             if (activeSort !== null && activeSort !== target) {
                 activeSort.setAttribute('aria-selected', false);
                 activeSort.setAttribute('aria-sort', 'none');
             }
 
-            var order = target.getAttribute('aria-sort');
-            if (order === 'ascending') {
-                order = -1;
-            } else {
-                order = 1;
-            }
+            order = target.getAttribute('aria-sort');
+            order = order === 'ascending' ? -1 : 1;
 
             this.tableSort(tableEl,
                            target.getAttribute('data-key'),
@@ -43,7 +44,7 @@
 
             target.setAttribute('aria-selected', true);
             target.setAttribute('aria-sort',
-                               order > 0 ? 'ascending' : 'descending');
+                                order > 0 ? 'ascending' : 'descending');
         },
 
         tableSort: function(el, key, direction) {
@@ -71,7 +72,8 @@
             var target, destination, current;
 
             target = e.target;
-            current = document.querySelector('.graduation [aria-selected=true]');
+            current = document
+                             .querySelector('.graduation [aria-selected=true]');
 
             if (target.nodeName.toLowerCase() !== 'img') {
                 return;

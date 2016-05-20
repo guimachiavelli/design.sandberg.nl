@@ -1,5 +1,5 @@
 <% if @students %>
-<table class="students">
+<table id="students" class="students">
     <% if @students[:caption] %>
     <caption class="students__title">
         <h3><%= @students[:caption] %></h3>
@@ -8,12 +8,10 @@
 
     <thead>
         <tr class="students__header">
-            <th></th>
             <th data-key="name">Student</th>
             <th data-key="year">Year</th>
             <th data-key="country">⚑</th>
             <th data-key="work">Works</th>
-            <th data-key="tags">Tags</th>
             <th data-key="media">Media</th>
         </tr>
     </thead>
@@ -27,10 +25,9 @@
                 data-tags="<%= student[:tags].length %>"
                 data-media="<%= student[:images].length %>"
                 data-year="<%= student[:year] %>">
-                <td><img src="<%= student[:avatar] %>" alt=""></td>
                 <td><a href="student.html"><%= student[:name] %></a></td>
                 <td>
-                    <a href="graduation.html">
+                    <a href="year.html">
                         <%= student[:year] %>
                     </a>
                 </td>
@@ -41,13 +38,8 @@
                     <% end %>
                 </td>
                 <td>
-                    <% student[:tags].each.with_index do |tag, i| %>
-                        <%= tag %><%= i < (student[:tags].length - 1) ? ',' : '' %>
-                    <% end %>
-                </td>
-                <td>
                     <% student[:images].each do |image| %>
-                        <img src="<%= image %>" alt="">
+                        <a href="project.html"><img src="<%= image %>" alt=""></a>
                     <% end %>
                 </td>
             </tr>
