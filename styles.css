@@ -48,6 +48,7 @@ table td,
 table th {
     border: 1px solid black;
     padding: 0.25em 0.5em;
+    text-align: left;
 }
 
 table th {
@@ -88,6 +89,7 @@ table th[aria-sort=descending]:after {
 .site-nav {
     display: inline;
     margin-bottom: 1em;
+    white-space: nowrap;
 }
 
 .nav-items {
@@ -115,7 +117,7 @@ table th[aria-sort=descending]:after {
 .secondary-nav__items {
     padding: 0;
     list-style: none;
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
 }
 
 .secondary-nav__item {
@@ -235,10 +237,7 @@ table th[aria-sort=descending]:after {
     border: 3px solid yellow;
 }
 
-
-
 /* student profile */
-
 .single-student__title {
     text-align: left;
     border: 1px solid black;
@@ -269,7 +268,6 @@ table th[aria-sort=descending]:after {
 }
 
 /* work listing */
-
 .single-project + .projects,
 .single-student + .projects {
     margin-top: 4em;
@@ -303,7 +301,6 @@ table th[aria-sort=descending]:after {
 }
 
 /* single project */
-
 .single-project__title {
     border: 1px solid black;
     border-bottom: 0;
@@ -322,32 +319,50 @@ table th[aria-sort=descending]:after {
 
 /* images */
 .image-listing {
-    column-count: 3;
-    column-gap: 0;
-    line-height: 0;
-    list-style: none;
-    padding: 0;
 }
 
 .image-listing__item {
-    padding: 0;
-    margin: 0;
-    margin: 0 10px 10px 0;
+    margin-bottom: 1em;
+}
+
+.image-listing__column {
+    width: 75%;
+    text-align: center;
 }
 
 .image-listing__image {
     width: 100%;
-    max-width: 100%;
 }
 
+/* video */
+.video-listing__column {
+    width: 75%;
+}
 
-.image-listing__frame {
+.video-listing__container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0;
+    padding: 56.25% 1em 0 1em;
+}
+
+.video-listing__frame {
     max-width: 100%;
-    width: 33vw;
-    height: 18.5625vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* links  */
+.links__title {
+    border: 1px solid black;
+    border-bottom: 0;
+    background: whitesmoke;
+}
+
 .link-items {
     padding: 0;
     list-style-position: inside;
@@ -359,12 +374,31 @@ table th[aria-sort=descending]:after {
     list-style-position: inside;
 }
 
-.text:before {
-}
-
-
 .years {
-    list-style: none;
-    padding: 0;
-    font-size: xx-large;
 }
+
+.years__item {
+}
+
+.years__item {
+    font-size: large;
+}
+
+.years__students {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.filter {
+    margin-bottom: 1em;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.links .is-hidden {
+    display: table-cell;
+    visibility: hidden;
+}
+
