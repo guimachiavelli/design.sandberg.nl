@@ -3,25 +3,6 @@
         "filter": true,
         "entries": [
             {
-                "name": "Florian Mecklenburg",
-                "avatar": "imgs/avatar2.png",
-                "graduation": "Dialetheia",
-                "year": 2016,
-                "country": "DE",
-                "projects": [
-                        "Hyper Kiss"
-                ],
-                "tags": [ "sound", "film", "installation" ],
-                "images": [
-                    "imgs/work1.png",
-                    "imgs/work2.png",
-                    "imgs/10.png",
-                    "imgs/work7.png",
-                    "imgs/work8.png",
-                    "imgs/work9.jpg"
-                ]
-            },
-            {
                 "name": "Agnieszka Joanna Zimolag",
                 "avatar": "imgs/avatar1.png",
                 "graduation": "Dialetheia",
@@ -38,6 +19,25 @@
                     "imgs/work14.png",
                     "imgs/work15.png",
                     "imgs/work16.jpg"
+                ]
+            },
+            {
+                "name": "Florian Mecklenburg",
+                "avatar": "imgs/avatar2.png",
+                "graduation": "Dialetheia",
+                "year": 2016,
+                "country": "DE",
+                "projects": [
+                        "Hyper Kiss"
+                ],
+                "tags": [ "sound", "film", "installation" ],
+                "images": [
+                    "imgs/work1.png",
+                    "imgs/work2.png",
+                    "imgs/10.png",
+                    "imgs/work7.png",
+                    "imgs/work8.png",
+                    "imgs/work9.jpg"
                 ]
             },
             {
