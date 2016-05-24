@@ -1,9 +1,16 @@
 <% if @links %>
-    <ul class="link-items">
-        <% @links.each.with_index do |link, i| %>
-            <li class="link-item">
-                <a href="http://<%= link %>"><%= link %></a>
-            </li>
-        <% end %>
-    </ul>
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="links" data-filter="cells">
+</form>
+
+<table class="links">
+    <% @links.each.with_index do |link, i| %>
+        <% if i % 3 == 0 %><tr><% end %>
+        <td>
+            <a href="http://<%= link %>"><%= link %></a>
+        </td>
+        <% if i % 3 == 2 %></tr><% end %>
+    <% end %>
+</table>
 <% end %>

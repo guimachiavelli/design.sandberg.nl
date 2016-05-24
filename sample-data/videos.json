@@ -1,19 +1,64 @@
 {
     "videos": [
-        "145288035",
-        "106910848",
-        "146828691",
-        "130756251",
-        "130111552",
-        "116429643",
-        "122513622",
-        "120817492",
-        "114117059",
-        "146846641",
-        "46508584",
-        "145647116",
-        "15739042",
-        "152877677",
-        "96510036"
+        {
+            "video": "145288035",
+            "author": "Florian Mecklenburg"
+        },
+        {
+            "video": "106910848",
+            "author": "Juliette Lizotte"
+        },
+        {
+            "video": "146828691",
+            "author": "Juliette Lizotte"
+        },
+        {
+            "video": "130756251",
+            "author": "Florian Mecklenburg"
+        },
+        {
+            "video": "130111552",
+            "author": "Benedikt Weishaupt"
+        },
+        {
+            "video": "116429643",
+            "author": "BiYi Zhu"
+        },
+        {
+            "video": "122513622",
+            "author": "Florian Mecklenburg"
+        },
+        {
+            "video": "120817492",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+        {
+            "video": "114117059",
+            "author": "BiYi Zhu"
+        },
+        {
+            "video": "146846641",
+            "author": "Benedikt Weishaupt"
+        },
+        {
+            "video": "46508584",
+            "author": "Benedikt Weishaupt"
+        },
+        {
+            "video": "145647116",
+            "author": "Juliette Lizotte"
+        },
+        {
+            "video": "15739042",
+            "author": "Florian Mecklenburg"
+        },
+        {
+            "video": "152877677",
+            "author": "BiYi Zhu"
+        },
+        {
+            "video": "96510036",
+            "author": "Juliette Lizotte"
+        }
     ]
 }

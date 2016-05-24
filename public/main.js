@@ -3,16 +3,26 @@
 
     var site = {
         init: function() {
-            var students, graduationMedia;
+            var students, graduationMedia, filterInput;
 
             students = document.querySelector('.students');
-            students.addEventListener('click',
-                                      this.onTableClick.bind(this, students));
+            if (students) {
+                students.addEventListener('click',
+                                          this.onTableClick.bind(this, students));
+            }
 
             graduationMedia = document
                                   .querySelector('.graduation td:nth-child(2)');
-            graduationMedia.addEventListener('click',
-                                             this.onMediaClick.bind(this));
+            if (graduationMedia) {
+                graduationMedia.addEventListener('click',
+                                                 this.onMediaClick.bind(this));
+            }
+
+            filterInput = document.querySelector('.filter-input');
+            if (filterInput) {
+                filterInput.addEventListener('keyup',
+                                             this.onFilterChange.bind(this));
+            }
         },
 
         onTableClick: function(tableEl, e) {
@@ -93,6 +103,37 @@
             }
 
             target.setAttribute('aria-selected', true);
+        },
+
+        onFilterChange: function(e) {
+            var value, table, rows, selector;
+
+            value = e.target.value.toLowerCase();
+            selector = e.target.getAttribute('data-filter');
+
+            selector = selector === 'cells' ? 'td' : 'tr';
+
+            table = document.querySelector(
+                '.' + e.target.getAttribute('aria-controls'));
+
+            rows = [].slice.call(table.querySelectorAll(selector));
+
+            rows.forEach(function(row) {
+                if (row.querySelector('th') !== null) {
+                    return;
+                }
+
+                if (!value) {
+                    row.classList.remove('is-hidden');
+                    return;
+                }
+
+                if (row.textContent.toLowerCase().indexOf(value) < 0) {
+                    row.classList.add('is-hidden');
+                } else {
+                    row.classList.remove('is-hidden');
+                }
+            });
         }
     };
 

@@ -1,7 +1,34 @@
 <% if @years %>
-<ol class="years">
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="years">
+</form>
+
+<table class="years">
+    <tr>
+        <th>Year</th>
+        <th>Graduation show</th>
+        <th>Students</th>
+    </tr>
+
     <% @years.each do |year| %>
-        <li class="years__item"><a href="year.html"><%= year %></a></li>
+        <tr>
+            <td class="years__item">
+                <a href="year.html"><%= year[:year] %></a>
+            </td>
+            <td>
+                <a href="year.html#graduation"><%= year[:graduation] %></a>
+            </td>
+            <td>
+                <ul class="years__students">
+                    <% year[:students].each do |student| %>
+                        <li class="years__student">
+                            <a href="student.html"><%= student %></a>
+                        </li>
+                    <% end %>
+                </ul>
+            </td>
+        </tr>
     <% end %>
-</ol>
+</table>
 <% end %>

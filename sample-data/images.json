@@ -1,50 +1,193 @@
 {
     "images": [
-        "1.jpg",
-        "2.jpg",
-        "3.jpg",
-        "4.jpg",
-        "5.gif",
-        "6.jpg",
-        "7.jpg",
-        "8.jpg",
-        "9.gif",
-        "10.png",
-        "11.png",
-        "12.png",
-        "avatar1.png",
-        "avatar2.png",
-        "avatar3.png",
-        "avatar4.png",
-        "work1.png",
-        "work2.png",
-        "work3.png",
-        "work4.png",
-        "work5.png",
-        "work6.png",
-        "work7.png",
-        "work8.png",
-        "work9.jpg",
-        "work10.jpg",
-        "work11.jpg",
-        "work12.jpg",
-        "work13.png",
-        "work14.png",
-        "work15.png",
-        "work16.jpg",
-        "work17.png",
-        "work18.jpg",
-        "work19.jpg",
-        "work20.jpg",
-        "work21.jpg",
-        "work22.jpg",
-        "work23.jpg",
-        "work24.png",
-        "work25.jpg",
-        "work26.jpg",
-        "work27.jpg",
-        "work28.png",
-        "work29.jpg",
-        "work30.jpg"
+        {
+            "img": "4.jpg",
+            "author": "Juliette Lizotte"
+        },
+        {
+            "img": "5.gif",
+            "author": "BiYi Zhu"
+        },
+
+        {
+            "img": "6.jpg",
+            "author": "Arthur Röing Baer"
+        },
+
+        {
+            "img": "7.jpg",
+            "author": "Benedikt Weishaupt"
+        },
+
+        {
+            "img": "8.jpg",
+            "author": "BiYi Zhu"
+        },
+
+        {
+            "img": "9.gif",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "12.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "avatar1.png",
+            "author": "Florian Mecklenburg"
+        },
+
+        {
+            "img": "work1.png",
+            "author": "Benedikt Weishaupt"
+        },
+
+        {
+            "img": "work2.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work3.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work4.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work5.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work6.png",
+            "author": "Benedikt Weishaupt"
+        },
+
+        {
+            "img": "work7.png",
+            "author": "Benedikt Weishaupt"
+        },
+
+        {
+            "img": "work8.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work9.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work10.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work11.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work12.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work13.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work14.png",
+            "author": "Benedikt Weishaupt"
+        },
+
+        {
+            "img": "work15.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work16.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work17.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work18.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work19.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work20.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work21.jpg",
+            "author": "Florian Mecklenburg"
+        },
+
+        {
+            "img": "work22.jpg",
+            "author": "Florian Mecklenburg"
+        },
+
+        {
+            "img": "work23.jpg",
+            "author": "Florian Mecklenburg"
+        },
+
+        {
+            "img": "work24.png",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work25.jpg",
+            "author": "Juliette Lizotte"
+        },
+
+        {
+            "img": "work26.jpg",
+            "author": "Juliette Lizotte"
+        },
+
+        {
+            "img": "work27.jpg",
+            "author": "Agnieszka Joanna Zimolag"
+        },
+
+        {
+            "img": "work28.png",
+            "author": "Florian Mecklenburg"
+        },
+
+        {
+            "img": "work29.jpg",
+            "author": "Juliette Lizotte"
+        },
+
+        {
+            "img": "work30.jpg",
+            "author": "Florian Mecklenburg"
+        }
+
     ]
 }

@@ -1,11 +1,37 @@
 {
     "years": [
-        "2016",
-        "2015",
-        "2014",
-        "2013",
-        "2012",
-        "2011",
-        "2010"
+        {
+            "year": "2016",
+            "graduation": "Dialetheia",
+            "students": [
+                "Agnieszka Joanna Zimolag", 
+                "Florian Mecklenburg", 
+                "Juliette Lizotte"
+            ]
+        },
+        {
+            "year": "2015",
+            "graduation": "Between Cat and Ruin",
+            "students": [
+                "BiYi Zhu",
+                "Floris van Driel",
+                "Arthur Röing Baer",
+                "Benedikt Weishaupt"
+            ]
+        },
+        {
+            "year": "2014",
+            "graduation": "The future's so bright i have to wear glasses",
+            "students": [
+                "Andrea Karch",
+                "Nazanin Karimi",
+                "Ekatarina Kholyapina",
+                "Lien Van Leemput",
+                "Jaroslav Toussaint",
+                "Janna Ullrich",
+                "Tommi Vasko",
+                "Donna Verheijden"
+            ]
+        }
     ]
 }

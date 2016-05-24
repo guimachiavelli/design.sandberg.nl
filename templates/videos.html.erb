@@ -1,10 +1,26 @@
 <% if @videos %>
-    <ul class="image-listing">
-        <% @videos.each do |video| %>
-            <li class="image-listing__item">
-                <iframe class="image-listing__frame" src="https://player.vimeo.com/video/<%= video %>?color=000000&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
-            </li>
-        <% end %>
-    </ul>
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="video-listing">
+</form>
+
+<table class="video-listing">
+    <tr>
+        <th>Video</th>
+        <th>Author</th>
+    </tr>
+    <% @videos.each do |video| %>
+        <tr>
+            <td class="video-listing__column">
+                <div class="video-listing__container">
+                    <iframe class="video-listing__frame" src="https://player.vimeo.com/video/<%= video[:video] %>?color=000000&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </td>
+            <td>
+                <a href="student.html"><%= video[:author] %></a>
+            </td>
+        </tr>
+    <% end %>
+</table>
 <% end %>
 

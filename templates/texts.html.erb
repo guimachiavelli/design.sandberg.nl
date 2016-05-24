@@ -1,10 +1,23 @@
 <% if @texts %>
-    <ul class="texts">
-        <% @texts.each.with_index do |text, i| %>
-            <li class="text">
-                <a href="http://<%= text[:link] %>"><%= text[:title] %></a>
-            </li>
-        <% end %>
-    </ul>
-<% end %>
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="texts">
+</form>
 
+<table class="texts">
+    <tr>
+        <th>Text</th>
+        <th>Author</th>
+    </tr>
+    <% @texts.each do |text| %>
+        <tr class="text">
+            <td>
+                <a href="http://<%= text[:link] %>"><%= text[:title] %></a>
+            </td>
+            <td>
+                <a href="student.html"><%= text[:author] %></a>
+            </td>
+        </tr>
+    <% end %>
+</table>
+<% end %>

@@ -1,11 +1,23 @@
 <% if @images %>
-    <ul class="image-listing">
-        <% @images.each do |image| %>
-            <li class="image-listing__item">
-                <a href="projects.html">
-                    <img class="image-listing__image" src="imgs/<%= image %>" alt="">
-                </a>
-            </li>
-        <% end %>
-    </ul>
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="image-listing">
+</form>
+
+<table class="image-listing">
+    <tr>
+        <th>Image</th>
+        <th>Author</th>
+    </tr>
+    <% @images.each do |image| %>
+        <tr class="image-listing__item">
+            <td class="image-listing__column">
+                <img class="image-listing__image" src="imgs/<%= image[:img] %>" alt="">
+            </td>
+            <td>
+                <a href="student.html"><%= image[:author] %></a>
+            </td>
+        </tr>
+    <% end %>
+</table>
 <% end %>

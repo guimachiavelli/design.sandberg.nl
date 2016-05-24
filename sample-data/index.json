@@ -1,5 +1,6 @@
 {
     "students": {
+        "filter": true,
         "entries": [
             {
                 "name": "Florian Mecklenburg",

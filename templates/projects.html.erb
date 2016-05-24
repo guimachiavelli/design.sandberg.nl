@@ -29,7 +29,7 @@
             <td><%= project[:excerpt] %></td>
             <td>
                 <% project[:media].each do |medium| %>
-                    <img src="<%= medium %>" alt="">
+                    <a href="project.html"><img src="<%= medium %>" alt=""></a>
                 <% end %>
             </td>
         </tr>

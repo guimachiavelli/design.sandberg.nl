@@ -2,48 +2,58 @@
     "texts": [
         {
             "link": "http://sandberg.nl/design/essays/2015/david-juan-ortiz/",
-            "title": "Hypnagogia and the colonisation of memory by David Ortiz Juan "
+            "title": "Hypnagogia and the colonisation of memory",
+            "author": "David Ortiz Juan"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/isaura-sanwirjatmo/",
-            "title": "SoSo Lobi by Isaura Sanwirjatmo"
+            "title": "SoSo Lobi",
+            "author": "Isaura Sanwirjatmo"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/isaura-sanwirjatmo/",
-            "title": "To Whom Do I Owe My Body? by Rasmus Svensson"
+            "title": "To Whom Do I Owe My Body?",
+            "author": "Rasmus Svensson"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/isaura-sanwirjatmo/",
-            "title": "Servers and Serfs by Rasmus Svensson"
+            "title": "Servers and Serfs",
+            "author": "Rasmus Svensson"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/isaura-sanwirjatmo/",
-            "title": "Tokens of Decadence by Giada Fiorindi"
+            "title": "Tokens of Decadence",
+            "author": "Giada Fiorindi"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/isaura-sanwirjatmo/",
-            "title": "To infinity, and beyond! by Tessel Bruhl"
+            "title": "To infinity, and beyond!",
+            "author": "Tessel Bruhl"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/janna-ulrich/",
-            "title": "Ideonautics by Janna Ulrich"
+            "title": "Ideonautics",
+            "author": "Janna Ulrich"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/janna-ulrich/",
-            "title": "modernism: or, the optimism by Jaroslav Toussaint"
+            "title": "modernism: or, the optimism",
+            "author": "Jaroslav Toussaint"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/janna-ulrich/",
-            "title": "Low EROEI manifesto by Tommi Vasko"
+            "title": "Low EROEI manifesto",
+            "author": "Tommi Vasko"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/janna-ulrich/",
-            "title": "Post-Liberation Design by Hannes Bernard"
+            "title": "Post-Liberation Design",
+            "author": "Hannes Bernard"
         },
         {
             "link": "http://sandberg.nl/design/essays/2015/janna-ulrich/",
-            "title": "Face Value by Simone C. Niquille"
+            "title": "Face Value",
+            "author": "Simone C. Niquille"
         }
-
     ]
 }

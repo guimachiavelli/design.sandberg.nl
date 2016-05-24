@@ -1,4 +1,12 @@
 <% if @students %>
+
+<% if @students[:filter] %>
+<form class="filter">
+    <label>Filter:</label>
+    <input class="filter-input" type="search" aria-controls="students">
+</form>
+<% end %>
+
 <table id="students" class="students">
     <% if @students[:caption] %>
     <caption class="students__title">
